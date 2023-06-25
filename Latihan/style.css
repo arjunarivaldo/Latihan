@@ -1,0 +1,134 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MyStyle */
+
+
+
+body {
+    background-image: url(bubble.png);
+    font-family: 'Poppins', sans-serif;
+    background-color: #eaeaea;
+    text-decoration: none;
+
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+/* Navbar */
+
+.navbar {
+padding: 20px;
+}
+
+div .header h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.link ul li {
+    
+    margin-top: 15px;
+    margin-right: 10px;
+    list-style: none;
+    display: inline-block;
+}
+.link a {
+   font-size: 18px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: skyblue;
+color: rgb(253, 253, 253);
+}
+
+/* Gambar */
+
+.hero {
+    height: 400px;
+    background-image: url(hero.jpg);
+    background-size: cover;
+    background-position: 0 -69px;
+    border-top:  solid skyblue;
+    border-bottom:  solid skyblue;
+}
+
+/* Isi Paragraf */
+
+.judul {
+    font-size: 25px ;
+    margin: 5px;
+}
+
+.penulis {
+    font-size: 15px;
+    margin-top: 20;
+    margin-left: 5px;
+    margin-bottom: 20px
+    
+}
+
+.penulis a {
+    text-decoration: none;
+}
+
+.isi-paragraf {
+    padding: 5px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #030303;
+    color: white;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
